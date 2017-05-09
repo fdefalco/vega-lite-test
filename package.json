@@ -1,0 +1,31 @@
+{
+  "name": "ohdsi-cohort-characterization",
+  "version": "0.0.1",
+  "description": "A standardized approach to cohort characterization and visualization",
+  "author": "Frank DeFalco <fdefalco@ohdsi.org>",
+  "contributors": [
+    {
+      "name": "Frank DeFalco",
+      "email": "fdefalco@ohdsi.org"
+    }
+  ],
+  "scripts": {
+    "build": "webpack",
+    "launch": "webpack-dev-server"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0",
+    "vega-embed": "^3.0.0-beta.14",
+    "vega-lite": "*"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.0"
+  },
+  "preferGlobal": false,
+  "private": true,
+  "license": "Apache 2.0"
+}
